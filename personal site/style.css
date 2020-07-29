@@ -1,0 +1,142 @@
+/* Container holding the image and the text */
+.container {
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.container2 {
+  position: absolute;
+  top: 840px;
+}
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100%;
+
+    font-family: 'Libre Franklin', sans-serif;
+  }
+
+.topnav {
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+  }
+
+.profile-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+
+.hey {
+    position: absolute;
+    top: 140px;
+    left: 190px;
+    line-height: 1.2em;
+    font-size: 4em;
+    color: white;
+
+    font-family: 'Shadows Into Light', sans-serif;
+  }
+
+.name {
+    position: absolute;
+    top: 210px;
+    left: 100px;
+    line-height: 1.2em;
+    font-size: 4em;
+    color: white;
+
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.description {
+  position: absolute;
+  top: 280px;
+  left: 375px;
+  line-height: 1.2em;
+  font-size: 4em;
+  color: white;
+
+  font-family: 'Shadows Into Light', sans-serif;
+}
+
+.topnav a {
+  background-color: transparent;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 13px; 
+  text-decoration: none;
+  font-size: 35px;
+
+  font-family: 'Open Sans Light', sans-serif;
+}
+
+.topnav a:hover {
+  font-family: 'Open Sans Light', sans-serif;
+}
+
+.topnav a.active {
+  font-family: 'Open Sans Light', sans-serif;
+}
+
+.left-right-wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.left-right-wrapper h3 {
+  font-size: 35px;
+  font-family: 'Open Sans Light', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.left-right-wrapper p {
+  font-size: 25px;
+  font-family: 'Open Sans Light', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.left {
+  display: table-cell;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.right {
+  display: table-cell;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  text-align: center;
+  padding: 3%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
