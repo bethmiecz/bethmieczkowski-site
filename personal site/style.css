@@ -7,9 +7,24 @@
   left: 0px;
 }
 
+.container1 {
+  position: absolute;
+  top: 820px;
+  width: 100%;
+}
+
 .container2 {
   position: absolute;
-  top: 840px;
+  top: 1255px;
+}
+
+.contact {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Open Sans Light', sans-serif;
 }
 
 html, body {
@@ -26,7 +41,7 @@ html, body {
   }
 
 .topnav {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     overflow: hidden;
     position: absolute;
     top: 0px;
@@ -39,7 +54,7 @@ html, body {
 }
 
 .background-image {
-  width: 100%;
+  width: 50%;
   height: auto;
   display: flex;
 }
@@ -92,6 +107,8 @@ html, body {
 
 .topnav a:hover {
   font-family: 'Open Sans Light', sans-serif;
+  color: black;
+  background-color: white;
 }
 
 .topnav a.active {
@@ -110,15 +127,13 @@ html, body {
 .left-right-wrapper h3 {
   font-size: 35px;
   font-family: 'Open Sans Light', sans-serif;
-  text-align: center;
-  color: white;
+  color: black;
 }
 
 .left-right-wrapper p {
   font-size: 25px;
-  font-family: 'Open Sans Light', sans-serif;
-  text-align: center;
-  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #4B4B4B;
 }
 
 .left {
@@ -128,7 +143,8 @@ html, body {
   width: 50%;
   text-align: center;
   padding: 3%;
-  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .right {
@@ -138,5 +154,52 @@ html, body {
   width: 25%;
   text-align: center;
   padding: 3%;
-  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* LinkedIn */
+
+.LI-profile-badge {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  background-color: white;
+}
+
+.github-badge {
+  position: absolute;
+  top: 425px;
+  left: 100px;
+  width: 200px;
+  height: auto;
+}
+
+.contactme {
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.gphotos-badge {
+  position: absolute;
+  top: 530px;
+  left: 100px;
+  width: 400px;
+  height: auto;
+}
+
+.gphotos-button {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+}
+
+.nytmaker {
+  position: absolute;
+  top: 150px;
+  left: 500px;
 }
