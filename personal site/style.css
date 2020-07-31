@@ -1,71 +1,76 @@
-/* Container holding the image and the text */
-.container {
-  text-align: center;
-  color: black;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
+/* ABOUT ME PAGE */
 
-.container1 {
-  position: absolute;
-  top: 820px;
-  width: 100%;
+.top-container {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+  position: relative;
+  background-color: black;
 }
 
 .container2 {
   position: absolute;
-  top: 1255px;
-}
-
-.connect-container {
-  position: absolute;
-  left: 200px;
-  top: 0px;
-}
-
-.contact {
-  position: absolute;
-  top: 30px;
-  left: 350px;;
-  color: white;
-  font-size: 40px;
-  font-family: 'Open Sans Light', sans-serif;
-  width: 400px;
+  width: 100%;
+  top: 1200px;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
 }
 
 html, body {
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: flex;
     height: 100%;
     margin: 0px;
     max-width: 100%;
     overflow-x: hidden;
     width: 100%;
-
-    font-family: 'Libre Franklin', sans-serif;
   }
 
+/* TOP NAV BAR */
+
 .topnav {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color:rgba(192, 163, 254, 1.0);
     overflow: hidden;
     position: absolute;
     top: 0px;
+    align-items: center;
+    justify-content: center;
   }
+
+  .topnav a {
+    background-color: transparent;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 70px; 
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+  
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .topnav a:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: white;
+  }
+  
+  .topnav a.active {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+/* PROFILE SECTION */
 
 .profile-image {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  top: 150px;
+  right: 100px;
+  width: 530px;
 }
-
-.background-image {
-  width: 50%;
-  height: auto;
-  display: flex;
-}
-
 
 .hey {
     position: absolute;
@@ -78,13 +83,14 @@ html, body {
     font-family: 'Shadows Into Light', sans-serif;
   }
 
-.name {
+.title {
     position: absolute;
     top: 210px;
-    left: 100px;
+    left: 115px;
     line-height: 1.2em;
     font-size: 4em;
-    color: white;
+    color: #C0A3FE;
+    font-weight: 800;
 
     font-family: 'Open Sans', sans-serif;
   }
@@ -92,7 +98,7 @@ html, body {
 .description {
   position: absolute;
   top: 280px;
-  left: 375px;
+  left: 445px;
   line-height: 1.2em;
   font-size: 4em;
   color: white;
@@ -100,26 +106,38 @@ html, body {
   font-family: 'Shadows Into Light', sans-serif;
 }
 
-.topnav a {
-  background-color: transparent;
-  float: left;
+.meetu {
+  position: absolute;
+  top: 450px;
+  left: 190px;
   color: white;
+  font-weight: 800;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.par-description {
+  position: absolute;
+  top: 540px;
+  left: 75px;
+  width: 650px;
+  color: white;
+  font-weight: 400;
   text-align: center;
-  padding: 14px 13px; 
-  text-decoration: none;
-  font-size: 35px;
+  font-size: 30;
 
-  font-family: 'Open Sans Light', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.topnav a:hover {
-  font-family: 'Open Sans Light', sans-serif;
-  color: black;
-  background-color: white;
-}
+/* LET'S CONNECT & ABOUT ME SECTIONS */
 
-.topnav a.active {
-  font-family: 'Open Sans Light', sans-serif;
+.container1 {
+  position: absolute;
+  top: 765px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .left-right-wrapper {
@@ -129,18 +147,19 @@ html, body {
   position: absolute;
   top: 0px;
   left: 0px;
+  text-align: center;
 }
 
 .left-right-wrapper h3 {
   font-size: 35px;
   font-family: 'Open Sans Light', sans-serif;
-  color: black;
+  color: white;
 }
 
 .left-right-wrapper p {
   font-size: 25px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #4B4B4B;
+  color: black;
 }
 
 .left {
@@ -151,79 +170,152 @@ html, body {
   text-align: center;
   padding: 3%;
   text-align: left;
-  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .right {
   display: table-cell;
   align-items: center;
   justify-content: center;
-  width: 25%;
+  width: 50%;
   text-align: center;
   padding: 3%;
   text-align: left;
-  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
-/* LinkedIn */
+.connect {
+  position: absolute;
+  top: 0px;
+  left: 285px;
+  color: white;
+  font-weight: 800;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.facts {
+  position: absolute;
+  top: 0px;
+  right: 250px;
+  color: white;
+  font-weight: 800;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets1 {
+  position: absolute;
+  top: 75px;
+  right: 245px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets2 {
+  position: absolute;
+  top: 125px;
+  right: 237px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets3 {
+  position: absolute;
+  top: 175px;
+  right: 270px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.fact-bullets4 {
+  position: absolute;
+  top: 225px;
+  right: 120px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  font-size: 30;
+  justify-content: center;
+
+  font-family: 'Open Sans', sans-serif;
+}
 
 .LI-profile-badge {
   position: absolute;
-  top: 175px;
-  left: 100px;
+  top: 100px;
+  left: 16%;
   background-color: white;
 }
 
 .github-badge {
   position: absolute;
-  top: 470px;
-  left: 100px;
+  top: 400px;
+  left: 20%;
   width: 200px;
   height: auto;
-}
-
-.contactme {
-  position: absolute;
-  top: 520px;
-  left: 100px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 25px;
-  color: white;
-}
-
-.gphotos-badge {
-  position: absolute;
-  top: 410px;
-  left: 800px;
-  width: 400px;
-  height: auto;
-}
-
-.gphotos-button {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
-}
-
-.gphotos {
-  position: absolute;
-  top: 420px;
-  left: 600px;
-  width: 300px;
-}
-
-.gphotos-link {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 25px;
+  padding: 20px;
 }
 
 .nytmaker {
   position: absolute;
-  top: 140px;
-  left: 600px;
+  top: 440px;
+  left: 12%;
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
   width: 400px;
+  padding: 20px;
+  text-align: center;
 }
+
+/* PROJECT PAGE */
+
+.proj-container {
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.projects-title {
+    line-height: 1.2em;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    top: 100px;
+    left: 542px;
+    position: absolute;
+    width: 375px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CONTACT PAGE */
+
+.contact-container {
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.contact-linkedin {
+  position: relative;
+}
+
