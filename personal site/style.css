@@ -309,21 +309,90 @@ html, body {
   text-align: center;
   color: black;
   position: absolute;
-  top: 0px;
+  top: 75px;
   left: 0px;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.proj-container h1 {
+  position: relative;
+  color: white;
+  font-weight: 800;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.proj-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 800;
+  font-size: 22;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.proj-container h3 {
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 .projects-title {
-    line-height: 1.2em;
     font-size: 25px;
     color: white;
     text-align: center;
-    top: 100px;
-    left: 542px;
-    position: absolute;
-    width: 375px;
+    position: relative;
+    top: 0px;
 
     font-family: 'Open Sans', sans-serif;
+}
+
+.nytvisual-image {
+  position: relative;
+  width: 65%;
+}
+
+.nytvis-table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+.nytvis-left {
+  float: left;
+  text-align: left;
+  width: 50%;
+  position: absolute;
+  top: 0px;
+  padding-left: 0px;
+  padding-top: 5px;
+}
+
+.nytvis-right {
+  float: right;
+  width: 40%;
+  top: 0px;
+  padding-right: 120px;
+}
+
+.keys {
+  text-align: left;
 }
 
 /* EXPERIENCE PAGE */
