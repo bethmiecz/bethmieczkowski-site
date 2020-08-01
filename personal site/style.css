@@ -321,7 +321,7 @@ html, body {
 .proj-container h1 {
   position: relative;
   color: white;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 24;
 
   font-family: 'Open Sans', sans-serif;
@@ -330,7 +330,7 @@ html, body {
 .proj-container h2 {
   position: relative;
   color: white;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 22;
 
   font-family: 'Open Sans', sans-serif;
@@ -363,7 +363,7 @@ html, body {
   width: 65%;
 }
 
-.nytvis-table {
+.table {
   display: table;
   width: 100%;
   max-width: 100%;
@@ -374,7 +374,7 @@ html, body {
   justify-content: center;
 }
 
-.nytvis-left {
+.left {
   float: left;
   text-align: left;
   width: 50%;
@@ -384,7 +384,7 @@ html, body {
   padding-top: 5px;
 }
 
-.nytvis-right {
+.right {
   float: right;
   width: 40%;
   top: 0px;
@@ -395,61 +395,161 @@ html, body {
   text-align: left;
 }
 
+.crumble-all {
+  padding-left: 55px;
+}
+
+.crumble-image {
+  width: 16%;
+  display: inline-block;
+  float: left;
+}
+
+.carriage-image {
+  width: 30%;
+}
+
+.cusail-image {
+  width: 60%;
+}
+
 /* EXPERIENCE PAGE */
 
 .exp-container {
   text-align: center;
   color: black;
   position: absolute;
-  top: 0px;
+  top: 75px;
   left: 0px;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .exp-title {
-    line-height: 1.2em;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    top: 100px;
-    left: 430px;
-    position: absolute;
-    width: 600px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 0px;
 
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.data-project {
+.exp-container h1 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 24;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.exp-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 22;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.exp-container h3 {
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tpm-internship {
   width: 100%;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 300px;
-  left: 250px;
+  position: relative;
+}
+
+.software-internship {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 /* CONTACT PAGE */
+/* BASED ON https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
 .contact-container {
   text-align: center;
-  color: black;
+  color: white;
   position: absolute;
-  top: 0px;
+  top: 75px;
   left: 0px;
+  width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 .contact-linkedin {
   position: relative;
 }
 
+.contact-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 22;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
 .contact-title {
-  line-height: 1.2em;
   font-size: 25px;
   color: white;
   text-align: center;
-  top: 100px;
-  left: 430px;
-  position: absolute;
-  width: 600px;
+  position: relative;
+  top: 0px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+  font-size: 35;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type=submit] {
+  background-color: #C0A3FE;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contactme-container {
+  border-radius: 5px;
 
   font-family: 'Open Sans', sans-serif;
 }
