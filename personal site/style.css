@@ -1,14 +1,5 @@
 /* ABOUT ME PAGE */
 
-.top-container {
-  text-align: center;
-  justify-content: center;
-  display: flex;
-  color: black;
-  position: relative;
-  background-color: black;
-}
-
 .container2 {
   position: absolute;
   width: 100%;
@@ -105,6 +96,13 @@ html, body {
   color: white;
 
   font-family: 'Shadows Into Light', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .topnav a {
+    font-size: 20px;
+    padding: 20px 20px;
+  }
 }
 
 .background-img {
@@ -487,9 +485,7 @@ html, body {
 .puppies-container {
   color: white;
   position: absolute;
-  top: 75px;
-  left: 0px;
-  width: 100%;
+  top: 100px;
   max-width: 100%;
 
   font-family: 'Open Sans', sans-serif;
@@ -510,7 +506,6 @@ html, body {
   color: white;
   font-weight: 600;
   font-size: 24;
-  left: 100px;
   top: 0px;
 
   font-family: 'Open Sans', sans-serif;
@@ -548,63 +543,75 @@ html, body {
 }
 
 .pups-all {
-  position: relative;
-  top: 0px;
-  text-align: center;
-  justify-content: center;
-  max-width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
+  top: 100px;
+  width: 100%;
+  padding-left: 50px;
 }
 
 .pups-image1 {
-  position: absolute;
-  padding: 30px;
-  width: 25%;
-  top: 210px;
+  height: auto;
+  padding: 3px;
 }
 
 .pups-image2 {
+  right: 37px;
+  width: 30%;
+  margin-right: 1%;
+  top: 373px;
   position: absolute;
-  padding: 30px;
-  width: 25%;
-  top: 100px;
+  height: auto;
 }
 
 .pups-image3 {
+  left: 52px;
   position: absolute;
-  padding: 30px;
-  width: 25%;
-  top: 100px;
-  left: 100px;
+  width: 30%;top: 825px;
 }
 
 .pups-image4 {
+  float: left;
+  width: 30%;
+  margin-right: 1%;
+  top: 825px;
   position: absolute;
-  padding: 30px;
-  width: 25%;
-  top: 100px;
+  height: auto;
 }
 
 .pups-image5 {
+  right: 37px;
+  width: 30%;
+  margin-right: 1%;
+  top: 825px;
   position: absolute;
-  padding: 30px;
-  width: 25%;
-  top: 500px;
+  height: auto;
 }
 
 .pups-image6 {
+  float: left;
+  left: 50px;
+  width: 30%;
+  margin-right: 1%;
+  top: 1280px;
   position: absolute;
-  padding: 30px;
-  width: 25%;
-  top: 100px;
+  height: auto;
 }
 
 .pups-image7 {
+  float: left;
+  width: 30%;
+  margin-right: 1%;
+  top: 1280px;
   position: absolute;
-  padding: 30px;
-  width: 25%;
-  top: 100px;
+  height: auto;
+}
+
+.pups-image8 {
+  right: 37px;
+  width: 30%;
+  margin-right: 1%;
+  top: 1280px;
+  position: absolute;
+  height: auto;
 }
 
 
