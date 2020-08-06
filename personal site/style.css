@@ -76,7 +76,7 @@ html, body {
 .hey {
     position: absolute;
     top: 0px;
-    left: 80px;
+    left: 50px;
     line-height: 1.2em;
     font-size: 4em;
     color: white;
@@ -99,7 +99,7 @@ html, body {
 .description {
   position: absolute;
   top: 140px;
-  left: 330px;
+  left: 280px;
   line-height: 1.2em;
   font-size: 4em;
   color: white;
@@ -482,38 +482,20 @@ html, body {
   position: relative;
 }
 
-/* CONTACT PAGE */
-/* BASED ON https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* PUPPIES PAGE */
 
-.contact-container {
-  text-align: center;
+.puppies-container {
   color: white;
   position: absolute;
   top: 75px;
   left: 0px;
   width: 100%;
   max-width: 100%;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
 
   font-family: 'Open Sans', sans-serif;
 }
 
-.contact-linkedin {
-  position: relative;
-}
-
-.contact-container h2 {
-  position: relative;
-  color: white;
-  font-weight: 600;
-  font-size: 22;
-
-  font-family: 'Open Sans', sans-serif;
-}
-
-.contact-title {
+.puppies-title {
   font-size: 25px;
   color: white;
   text-align: center;
@@ -523,34 +505,111 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;  
-  border: 1px solid #ccc;
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical; 
-  font-size: 35;
-
-  font-family: 'Open Sans', sans-serif;
-}
-
-input[type=submit] {
-  background-color: #C0A3FE;
+.puppies-container h1 {
+  position: relative;
   color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  font-weight: 600;
+  font-size: 24;
+  left: 100px;
+  top: 0px;
 
   font-family: 'Open Sans', sans-serif;
 }
 
-.contactme-container {
-  border-radius: 5px;
+.puppies-container h2 {
+  position: relative;
+  color: white;
+  font-weight: 600;
+  font-size: 22;
 
   font-family: 'Open Sans', sans-serif;
 }
+
+.puppies-container h3 {
+  text-align: left;
+  justify-content: left;
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.puppies-container h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 30;
+  padding-left: 100px;
+  padding-right: 100px;
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.pups-all {
+  position: relative;
+  top: 0px;
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pups-image1 {
+  position: absolute;
+  padding: 30px;
+  width: 25%;
+  top: 210px;
+}
+
+.pups-image2 {
+  position: absolute;
+  padding: 30px;
+  width: 25%;
+  top: 100px;
+}
+
+.pups-image3 {
+  position: absolute;
+  padding: 30px;
+  width: 25%;
+  top: 100px;
+  left: 100px;
+}
+
+.pups-image4 {
+  position: absolute;
+  padding: 30px;
+  width: 25%;
+  top: 100px;
+}
+
+.pups-image5 {
+  position: absolute;
+  padding: 30px;
+  width: 25%;
+  top: 500px;
+}
+
+.pups-image6 {
+  position: absolute;
+  padding: 30px;
+  width: 25%;
+  top: 100px;
+}
+
+.pups-image7 {
+  position: absolute;
+  padding: 30px;
+  width: 25%;
+  top: 100px;
+}
+
+
+
+
+
+
 
